@@ -1,4 +1,4 @@
-@import '../../variables.scss';
+@import "../../variables.scss";
 
 .wasteCollection-container {
   margin-top: 2%;
@@ -16,7 +16,7 @@
   background-image: $colorGradient;
   color: white;
   border-radius: 10px;
-  align-items: start;
+  align-items: flex-start;
   flex-direction: column;
   display: flex;
   padding: 5px;

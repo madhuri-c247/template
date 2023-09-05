@@ -1,4 +1,6 @@
-import 
+import call from '../assets/Vector (1).png'
+import mail from '../assets/Vector.png'
+import visit from '../assets/location.png'
 export const footerList = [
   "Home",
   "Case Studies",
@@ -11,17 +13,17 @@ export const footerList = [
 
 export const contactUs = [
   {
-    logo: "",
+    logo: call,
     title: "CALL US",
     contact: "(571) 316-0676",
   },
   {
-    logo: "",
+    logo: mail,
     title: "MAIL US",
     contact: "mailto:info@routeoptimizationconsultants.com",
   },
   {
-    logo: "",
+    logo: visit,
     title: "VISIT US",
     contact: "1751 Pinnacle Dr #600dMclean, VA 22102",
   },
