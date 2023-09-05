@@ -1,0 +1,53 @@
+@import '../../variables.scss';
+
+.faq-container{
+    width: 99%;
+    height: 100vh;
+    background-color: #EFEFEF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.faq-content{
+    width: 45%;
+    margin-top: 6%;
+    text-align: left;
+    margin-left: 9%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: $colorBlue;
+}
+.faq-container >img{
+    width:45%;
+    height: 100vh;
+}
+.faqCard-container {
+    height: 80%;
+    
+}
+.faqCard{
+    border-bottom: 1px solid rgb(8, 8, 8);
+    width: 500px;
+    justify-content: space-between;
+}
+.query{
+    width: 80%;
+}
+.query >p{
+    color: black;
+    margin: 1%;
+    font-size: 14px;
+    font-weight: 500;
+}
+.view-query{
+   color: $colorOrange;
+   cursor: pointer;
+   
+}
+.close-query{
+   color: $colorBlue;
+   cursor:pointer;
+}

@@ -1,0 +1,91 @@
+@import '../../variables.scss';
+
+.header-main {
+  width: 99.9%;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 999;
+  position: absolute;
+  top: 5vh;
+}
+
+.header-main > img {
+  width: 10%;
+  height: 10vh;
+}
+
+.header-main > nav {
+  width: 80%;
+}
+
+.header-container {
+  position: relative;
+  width: 99.8%;
+  height: 100vh;
+  display: flex;
+  margin: 0;
+}
+.header-container .header-bgImage {
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+.mask-group-image {
+  position: absolute;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.header-content {
+  position: absolute;
+  align-self: center;
+  width: 40%;
+  color: $colorWhite;
+  left: 6%;
+}
+
+.header-content > button {
+  background-color: $colorGreen;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: bolder;
+  border-radius: 20px;
+  border: none;
+  margin: 10px 0px;
+  box-shadow: 0px 0px 2px #8cc63f;
+}
+
+.header-content > p {
+  margin: 5% 0px;
+}
+.header-content > button:hover {
+  background-color: #71a52d;
+  color: white;
+}
+
+.scroll-down {
+  width: 2%;
+  height: 4vh;
+  border-radius: 35px;
+  padding: 8px;
+  background-color: $colorBlue;
+  position: absolute;
+  color: black;
+  bottom: 12%;
+  left: 8%;
+}
+
+.scroll-down:hover {
+  color: $colorWhite;
+  cursor: pointer;
+}
+
+.orange-bar-image {
+  width: 20%;
+  height: 10vh;
+  position: absolute;
+  bottom: 14%;
+  z-index: -5;
+  left: 10%;
+}

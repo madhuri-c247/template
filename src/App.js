@@ -1,15 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './utils/Home';
-import Section from './utils/Section';
-import Contact from './utils/Contact';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+//CSS
+import "./App.css";
+//components
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
-    <Home/>
-    <Section/>
-    <Contact/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

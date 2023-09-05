@@ -1,0 +1,48 @@
+@import '../../variables.scss';
+
+.key-container {
+  display: flex;
+  position: relative;
+  /* border: 1px solid red; */
+  height: 100vh;
+}
+
+.key-content {
+  /* border: 1px solid rgb(0, 255, 55); */
+  position: absolute;
+  right: 10%;
+  width: 60%;
+  text-align: center;
+  top: 5%;
+}
+
+.key-content h2 {
+  color:$colorBlue;
+}
+.keycard-container {
+  margin-top: 5%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.bg-image {
+  width: 30%;
+}
+
+.keyCard {
+  height: 25vh;
+  background-color: $colorWhite;
+}
+
+.keyCard h3 {
+  color: $colorBlue;
+}
+.keyCard p {
+  font-size: 10px;
+}
+
+.keyCard > img {
+  width: 30%;
+  height: 8vh;
+  margin: 1%;
+}

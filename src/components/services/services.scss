@@ -1,0 +1,44 @@
+@import '../../variables.scss';
+
+.service-container {
+  width: 100%;
+  position: relative;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  color: $colorBlue;
+  align-items: center;
+}
+
+.service-btn {
+  position: absolute;
+  bottom: 0;
+  z-index: 99;
+  background-color: transparent;
+  border: 1px solid $colorBlue;
+  color: $colorBlue;
+  text-transform: uppercase;
+  width: 15%;
+  font-size: 12px;
+}
+.serviceCard-container{
+    width: 60%;
+    justify-content: space-evenly;
+}
+.serviceCard {
+  height: 45vh;
+  background-color: $colorWhite;
+  background-color: $colorBlue;
+  color: $colorWhite;
+  border: 1px solid $colorOrange;}
+
+.serviceCard > img{
+    width: 100%
+}
+.serviceCard > p{
+    font-size: 12px;
+}
+.service-btn:hover{
+    border: 1px solid $colorOrange;
+    color: $colorOrange;
+}

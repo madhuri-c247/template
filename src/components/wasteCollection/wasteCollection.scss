@@ -1,0 +1,43 @@
+@import '../../variables.scss';
+
+.wasteCollection-container {
+  margin-top: 2%;
+  height: 70vh;
+  background-color: #feeee6;
+}
+
+.wasteCollection-container > img {
+  width: 35%;
+  height: 55vh;
+}
+.wasteCard {
+  height: 12vh;
+  width: 45%;
+  background-image: $colorGradient;
+  color: white;
+  border-radius: 10px;
+  align-items: start;
+  flex-direction: column;
+  display: flex;
+  padding: 5px;
+  text-transform: uppercase;
+  justify-content: center;
+}
+.wasteCard > p {
+  font-size: 10px;
+}
+
+.wasteCard-container {
+  width: 80%;
+  height: 30vh;
+  justify-content: space-between;
+  gap: 2%;
+}
+.content {
+  width: 45%;
+  height: 50vh;
+  margin-top: 6%;
+  text-align: left;
+  margin-left: 5%;
+  color: $colorBlue;
+}
