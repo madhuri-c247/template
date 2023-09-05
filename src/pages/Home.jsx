@@ -9,6 +9,7 @@ import Services from "../components/services/Services";
 import WasteCollection from "../components/wasteCollection/WasteCollection";
 import FAQ from "../components/FAQ/FAQ";
 import Footer from "../components/footer/Footer";
+import ReviewForm from "../components/reviewForm/ReviewForm";
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       <Services />
       <WasteCollection/>
       <FAQ/>
+      <ReviewForm/>
       <Footer/>
     </>
   );
